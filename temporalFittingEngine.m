@@ -35,7 +35,7 @@ if ismac
         );
 end
 
-if unix
+if isunix
     p = struct(...
         'projectName',           'temporalFittingEngine', ...                                                                     % The project's name (also the preferences group name)
         'validationRootDir',     tfeValidationDir, ...                                                                            % Directory location where the 'scripts' subdirectory resides.
